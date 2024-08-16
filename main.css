@@ -24,7 +24,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   z-index: 9999 !important;
   position: absolute;
   left: 50%;
-  top: 38%; /* Đưa title xuống một chút để phù hợp với khung ảnh to hơn */
+  top: 40%; /* Điều chỉnh lại vị trí của tiêu đề */
   transform: translateX(-50%) translateY(-50%);
   font-family: "Montserrat";
   text-align: center;
@@ -36,7 +36,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   position: relative;
   color: #fff;
   font-weight: 100;
-  font-size: 60px; /* Tăng kích thước chữ cho tiêu đề */
+  font-size: 65px; /* Tăng kích thước chữ cho tiêu đề */
   padding: 0;
   margin: 0;
   line-height: 1.2;
@@ -54,14 +54,14 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 .title h3 {
   z-index: 99;
   font-weight: 200;
-  font-size: 28px; /* Tăng kích thước chữ cho phần text nhỏ */
+  font-size: 30px; /* Tăng kích thước chữ cho phần text nhỏ */
   padding: 0;
   margin: 0;
   line-height: 1.5;
   color: #ffffff;
   letter-spacing: 1px;
   position: relative;
-  top: -20px; /* Đưa dòng chữ "Em đồng ý làm người yêu anh nhé" lên cao hơn */
+  top: 10px; /* Đưa dòng chữ "Em đồng ý làm người yêu anh nhé" lên cao hơn */
 }
 
 /* 爱心css */
@@ -72,8 +72,8 @@ canvas {
 }
 
 .img {
-  width: 320px; /* Điều chỉnh kích thước hình ảnh nhỏ lại để khít với trái tim hồng */
-  height: 320px; /* Điều chỉnh chiều cao tương ứng */
+  width: 400px; /* Tăng kích thước hình ảnh */
+  height: 400px; /* Tăng chiều cao tương ứng */
   position: absolute;
   left: 50%;
   top: 60%; /* Điều chỉnh vị trí hình ảnh */
@@ -85,3 +85,146 @@ canvas {
   position: relative;
   top: 0%;
   left: 0%;
+  height: 400px; /* Điều chỉnh để phù hợp với kích thước hình ảnh */
+}
+
+.STARDUST1 {
+  font-size: 2em; /* Tăng kích thước chữ */
+  position: relative;
+  top: -60px; /* Đưa chữ "2024" gần với "TT & QA" */
+  text-align: center;
+  color: white;
+}
+
+.STARDUST2 {
+  font-size: 5em; /* Tăng kích thước chữ "TT & QA" */
+  position: relative;
+  top: 0px; /* Điều chỉnh vị trí chữ để gần với chữ "2024" */
+  text-align: center;
+  color: white;
+}
+
+.STARDUST3 {
+  font-size: 3em; /* Tăng kích thước chữ "Em đồng ý làm người yêu anh nhé" */
+  position: relative;
+  top: 20px; /* Di chuyển chữ lên trên */
+  text-align: center;
+  color: white;
+}
+
+/* 星空css */
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-filter: contrast(120%);
+  filter: contrast(120%);
+  background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #020409 100%) !important;
+}
+
+.container2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #020409 100%) !important;
+  padding-top: 20px; /* Tăng khoảng cách trên để tạo không gian */
+  padding-bottom: 20px; /* Tăng khoảng cách dưới để tạo không gian */
+}
+
+.content {
+  width: inherit;
+  height: inherit;
+  background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #020409 100%) !important;
+}
+
+#universe {
+  width: 100%;
+  height: 100%;
+}
+
+#footerContent {
+  font-family: sans-serif;
+  font-size: 120%;
+  color: rgba(200, 220, 255, 0.3);
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding: 20px;
+  text-align: center;
+  z-index: 20;
+}
+
+#scene {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(200, 220, 255, 1);
+  opacity: 0.4;
+  transition: opacity 0.4s ease;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  --_m: radial-gradient(#000 69%, #0000 70%) 84.5% fill/100%;
+  -webkit-mask-box-image: var(--_m);
+  mask-border: var(--_m);
+  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}
+
+/* Media queries for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 65px; /* Tăng kích thước chữ trên điện thoại */
+  }
+
+  .title h3 {
+    font-size: 28px; /* Điều chỉnh kích thước chữ nhỏ hơn */
+  }
+
+  .img {
+    width: 350px; /* Điều chỉnh kích thước hình ảnh */
+    height: 350px; /* Điều chỉnh chiều cao hình ảnh */
+  }
+
+  .STARDUST1 {
+    font-size: 2.5em; /* Tăng kích thước chữ */
+    top: -50px; /* Đưa chữ "2024" sát với "TT & QA" */
+  }
+
+  .STARDUST2 {
+    font-size: 4.5em; /* Tăng kích thước chữ */
+    top: 0px; /* Điều chỉnh vị trí chữ "TT & QA" */
+  }
+
+  .STARDUST3 {
+    font-size: 2.5em; /* Tăng kích thước chữ */
+    top: 20px; /* Điều chỉnh vị trí chữ */
+  }
+
+  .container2, .content {
+    padding-left: 20px; /* Thêm không gian bên trái */
+    padding-right: 20px; /* Thêm không gian bên phải */
+  }
+
+  .title {
+    padding-top: 30px; /* Thêm khoảng cách phía trên */
+  }
+}

@@ -24,7 +24,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   z-index: 9999 !important;
   position: absolute;
   left: 50%;
-  top: 40%; /* Điều chỉnh lại vị trí tiêu đề */
+  top: 38%; /* Điều chỉnh lại vị trí tiêu đề */
   transform: translateX(-50%) translateY(-50%);
   font-family: "Montserrat";
   text-align: center;
@@ -89,12 +89,12 @@ canvas {
 
 .STARDUST1 {
   position: relative !important;
-  top: -70px; /* Đưa chữ "2024" cao hơn */
+  top: -80px; /* Đưa chữ "2024" cao hơn */
 }
 
 .STARDUST2 {
   position: relative !important;
-  top: -50px; /* Đưa chữ "TT & QA" cao hơn */
+  top: -60px; /* Đưa chữ "TT & QA" cao hơn */
 }
 
 .STARDUST3 {

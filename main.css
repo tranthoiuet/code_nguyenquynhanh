@@ -4,12 +4,12 @@
   bottom: 20px;
   z-index: 10;
   font-family: "Montserrat";
-  font-size: 14px; /* Tăng kích thước chữ */
+  font-size: 16px; /* Tăng kích thước chữ */
 }
 
 a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   font-family: "Montserrat";
-  font-size: 14px; /* Tăng kích thước chữ */
+  font-size: 16px; /* Tăng kích thước chữ */
   text-decoration: none;
   padding: 4px 8px;
   color: #f7f7f7;
@@ -36,7 +36,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   position: relative;
   color: #fff;
   font-weight: 100;
-  font-size: 60px; /* Tăng kích thước chữ cho tiêu đề */
+  font-size: 80px; /* Tăng kích thước chữ cho tiêu đề */
   padding: 0;
   margin: 0;
   line-height: 1.2;
@@ -54,7 +54,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 .title h3 {
   z-index: 99;
   font-weight: 200;
-  font-size: 22px; /* Tăng kích thước chữ cho phần text nhỏ */
+  font-size: 26px; /* Tăng kích thước chữ cho phần text nhỏ */
   padding: 0;
   margin: 0;
   line-height: 1.5;
@@ -70,8 +70,8 @@ canvas {
 }
 
 .img {
-  width: 400px; /* Tăng kích thước hình ảnh */
-  height: 400px; /* Tăng chiều cao tương ứng */
+  width: 450px; /* Tăng kích thước hình ảnh */
+  height: 450px; /* Tăng chiều cao tương ứng */
   position: absolute;
   left: 50%;
   top: 60%; /* Điều chỉnh vị trí hình ảnh */
@@ -82,29 +82,29 @@ canvas {
   position: relative;
   top: 0%;
   left: 0%;
-  height: 429px;
+  height: 450px; /* Tăng chiều cao để phù hợp với kích thước hình ảnh mới */
 }
 
 .STARDUST1 {
-  font-size: 1.5em; /* Tăng kích thước chữ */
+  font-size: 2.2em; /* Tăng kích thước chữ */
   position: relative;
-  top: -150px; /* Điều chỉnh vị trí chữ "2024" */
+  top: -30px; /* Di chuyển chữ "2024" sát với "TT & QA" hơn */
   text-align: center;
   color: white;
 }
 
 .STARDUST2 {
-  font-size: 4em; /* Tăng kích thước chữ "TT & QA" */
+  font-size: 5em; /* Tăng kích thước chữ "TT & QA" */
   position: relative;
-  top: 60px; /* Điều chỉnh vị trí chữ "TT & QA" */
+  top: 20px; /* Điều chỉnh vị trí chữ "TT & QA" để phù hợp với chữ "2024" */
   text-align: center;
   color: white;
 }
 
 .STARDUST3 {
-  font-size: 2em; /* Tăng kích thước chữ "Em đồng ý làm người yêu anh nhé" */
+  font-size: 2.5em; /* Tăng kích thước chữ "Em đồng ý làm người yêu anh nhé" */
   position: relative;
-  top: 100px; /* Di chuyển chữ xuống dưới để cân đối với tổng thể */
+  top: 60px; /* Di chuyển chữ xuống dưới để cân đối với tổng thể */
   text-align: center;
   color: white;
 }
@@ -189,31 +189,31 @@ img {
 /* Media queries for mobile responsiveness */
 @media only screen and (max-width: 600px) {
   .title h1 {
-    font-size: 50px; /* Tăng kích thước chữ trên điện thoại */
+    font-size: 60px; /* Tăng kích thước chữ trên điện thoại */
   }
 
   .title h3 {
-    font-size: 20px; /* Điều chỉnh kích thước chữ nhỏ hơn */
+    font-size: 24px; /* Điều chỉnh kích thước chữ nhỏ hơn */
   }
 
   .img {
-    width: 350px; /* Tăng kích thước hình ảnh */
-    height: 350px; /* Tăng chiều cao hình ảnh */
+    width: 380px; /* Tăng kích thước hình ảnh */
+    height: 380px; /* Tăng chiều cao hình ảnh */
   }
 
   .STARDUST1 {
-    font-size: 1.8em; /* Tăng kích thước chữ */
-    top: -120px; /* Điều chỉnh vị trí chữ "2024" */
+    font-size: 2em; /* Tăng kích thước chữ */
+    top: -20px; /* Điều chỉnh vị trí chữ "2024" sát hơn với "TT & QA" */
   }
 
   .STARDUST2 {
-    font-size: 3.5em; /* Tăng kích thước chữ */
-    top: 50px; /* Điều chỉnh vị trí chữ "TT & QA" */
+    font-size: 4.5em; /* Tăng kích thước chữ */
+    top: 10px; /* Điều chỉnh vị trí chữ "TT & QA" */
   }
 
   .STARDUST3 {
     font-size: 2.2em; /* Tăng kích thước chữ */
-    top: 90px; /* Điều chỉnh vị trí chữ */
+    top: 40px; /* Điều chỉnh vị trí chữ */
   }
 
   .container2, .content {

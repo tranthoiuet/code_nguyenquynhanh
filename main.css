@@ -89,8 +89,8 @@ canvas {
 
 .STARDUST1 {
   position: relative !important;
-  top: -90px; /* Đưa chữ "2024" cao hơn */
-  font-size: 2em; /* Làm cho chữ "2024" to hơn */
+  top: -100px; /* Đưa chữ "2024" cao hơn */
+  font-size: 3em; /* Làm cho chữ "2024" to hơn */
 }
 
 .STARDUST2 {

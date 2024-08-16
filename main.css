@@ -24,7 +24,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   z-index: 9999 !important;
   position: absolute;
   left: 50%;
-  top: 38%;
+  top: 35%;
   transform: translateX(-50%) translateY(-50%);
   font-family: "Montserrat";
   text-align: center;
@@ -36,7 +36,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   position: relative;
   color: #fff;
   font-weight: 100;
-  font-size: 70px;
+  font-size: 90px;
   padding: 0;
   margin: 0;
   line-height: 1;
@@ -54,14 +54,14 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 .title h3 {
   z-index: 99;
   font-weight: 200;
-  font-size: 26px;
+  font-size: 30px;
   padding: 0;
   margin: 0;
   line-height: 1;
   color: #ffffff;
   letter-spacing: 2px;
   position: relative;
-  top: -50px;
+  top: -60px;
 }
 
 /* 爱心css */
@@ -76,26 +76,26 @@ canvas {
   left: 50%;
   top: 55%;  /* Điều chỉnh vị trí hình ảnh để cân bằng */
   transform: translate(-50%, -50%);
-  width: 500px;  /* Tăng kích thước hình ảnh */
-  height: 500px;  /* Tăng kích thước hình ảnh */
+  width: 550px;  /* Tăng kích thước hình ảnh */
+  height: 550px;  /* Tăng kích thước hình ảnh */
 }
 
 #pinkboard {
   position: relative;
   top: 0%;
   left: 0%;
-  height: 529px; /* Tăng chiều cao khung */
+  height: 550px; /* Tăng chiều cao khung */
 }
 
 .STARDUST1 {
   position: relative !important;
-  top: -150px; /* Đưa chữ "2024" cao hơn so với chữ TT & QA */
-  font-size: 6em; /* Làm cho chữ "2024" to hơn */
+  top: -200px;
+  font-size: 6em;
 }
 
 .STARDUST2 {
   position: relative !important;
-  top: -60px;
+  top: -80px;
 }
 
 .STARDUST3 {

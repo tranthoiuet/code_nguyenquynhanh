@@ -36,11 +36,11 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   position: relative;
   color: #fff;
   font-weight: 100;
-  font-size: 50px; /* Giảm kích thước chữ */
+  font-size: 50px;
   padding: 0;
   margin: 0;
   line-height: 1;
-  text-shadow: 0 0 5px #ff006c, 0 0 10px #ff006c, 0 0 20px #ff417d; /* Giảm cường độ của shadow */
+  text-shadow: 0 0 5px #ff006c, 0 0 10px #ff006c, 0 0 20px #ff417d;
 }
 
 .title h1 span {
@@ -54,12 +54,12 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 .title h3 {
   z-index: 99;
   font-weight: 200;
-  font-size: 20px; /* Giảm kích thước chữ */
+  font-size: 20px;
   padding: 0;
   margin: 0;
   line-height: 1;
   color: #ffffff;
-  letter-spacing: 1px; /* Giảm khoảng cách chữ */
+  letter-spacing: 1px;
 }
 
 /* 爱心css */
@@ -70,12 +70,12 @@ canvas {
 }
 
 .img {
+  width: 300px; /* Giảm kích thước hình ảnh */
+  height: 300px; /* Giảm chiều cao tương ứng */
   position: absolute;
   left: 50%;
-  top: 65%; /* Điều chỉnh vị trí hình ảnh */
+  top: 55%; /* Điều chỉnh vị trí hình ảnh */
   transform: translate(-50%, -50%);
-  width: 300px; /* Giảm kích thước hình ảnh */
-  height: 300px; /* Giảm chiều cao hình ảnh */
 }
 
 #pinkboard {
@@ -86,22 +86,27 @@ canvas {
 }
 
 .STARDUST1 {
-  font-size: 1.2em; /* Giảm kích thước chữ */
+  font-size: 1.5em; /* Kích thước chữ */
   position: relative;
-  top: 80px; /* Di chuyển chữ xuống thấp hơn */
+  top: -100px; /* Di chuyển chữ "2024" lên trên hình ảnh */
   text-align: center;
+  color: white; /* Đảm bảo chữ hiển thị rõ ràng */
 }
 
 .STARDUST2 {
   font-size: 2.5em; /* Giảm kích thước chữ */
   position: relative;
-  top: 90px; /* Điều chỉnh vị trí chữ */
+  top: 20px; /* Di chuyển chữ "TT & QA" xuống dưới một chút */
   text-align: center;
+  color: white; /* Đảm bảo chữ hiển thị rõ ràng */
 }
 
 .STARDUST3 {
-  position: relative !important;
-  top: -20px;
+  font-size: 1.5em;
+  position: relative;
+  top: 40px; /* Di chuyển văn bản xuống dưới */
+  text-align: center;
+  color: white; /* Đảm bảo chữ hiển thị rõ ràng */
 }
 
 /* 星空css */
@@ -198,12 +203,12 @@ img {
 
   .STARDUST1 {
     font-size: 1em; /* Giảm kích thước chữ */
-    top: 60px; /* Di chuyển chữ xuống thấp hơn */
+    top: -50px; /* Di chuyển chữ "2024" lên trên */
   }
 
   .STARDUST2 {
     font-size: 2em; /* Giảm kích thước chữ */
-    top: 70px; /* Điều chỉnh vị trí chữ */
+    top: 30px; /* Điều chỉnh vị trí chữ */
   }
 
   .container2, .content {
@@ -212,6 +217,4 @@ img {
   }
 
   .title {
-    padding-top: 20px; /* Thêm khoảng cách phía trên */
-  }
-}
+    padding-top: 20px;

@@ -4,12 +4,12 @@
   bottom: 20px;
   z-index: 10;
   font-family: "Montserrat";
-  font-size: 12px;
+  font-size: 14px; /* Tăng kích thước chữ */
 }
 
 a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   font-family: "Montserrat";
-  font-size: 12px;
+  font-size: 14px; /* Tăng kích thước chữ */
   text-decoration: none;
   padding: 4px 8px;
   color: #f7f7f7;
@@ -24,7 +24,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   z-index: 9999 !important;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%; /* Đưa title xuống một chút để phù hợp với khung ảnh to hơn */
   transform: translateX(-50%) translateY(-50%);
   font-family: "Montserrat";
   text-align: center;
@@ -36,10 +36,10 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   position: relative;
   color: #fff;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 60px; /* Tăng kích thước chữ cho tiêu đề */
   padding: 0;
   margin: 0;
-  line-height: 1;
+  line-height: 1.2;
   text-shadow: 0 0 5px #ff006c, 0 0 10px #ff006c, 0 0 20px #ff417d;
 }
 
@@ -54,10 +54,10 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 .title h3 {
   z-index: 99;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 22px; /* Tăng kích thước chữ cho phần text nhỏ */
   padding: 0;
   margin: 0;
-  line-height: 1;
+  line-height: 1.5;
   color: #ffffff;
   letter-spacing: 1px;
 }
@@ -70,11 +70,11 @@ canvas {
 }
 
 .img {
-  width: 300px; /* Giảm kích thước hình ảnh */
-  height: 300px; /* Giảm chiều cao tương ứng */
+  width: 400px; /* Tăng kích thước hình ảnh */
+  height: 400px; /* Tăng chiều cao tương ứng */
   position: absolute;
   left: 50%;
-  top: 55%; /* Điều chỉnh vị trí hình ảnh */
+  top: 60%; /* Điều chỉnh vị trí hình ảnh */
   transform: translate(-50%, -50%);
 }
 
@@ -86,27 +86,27 @@ canvas {
 }
 
 .STARDUST1 {
-  font-size: 1.5em; /* Kích thước chữ */
+  font-size: 1.5em; /* Tăng kích thước chữ */
   position: relative;
-  top: -100px; /* Di chuyển chữ "2024" lên trên hình ảnh */
+  top: -150px; /* Điều chỉnh vị trí chữ "2024" */
   text-align: center;
-  color: white; /* Đảm bảo chữ hiển thị rõ ràng */
+  color: white;
 }
 
 .STARDUST2 {
-  font-size: 2.5em; /* Giảm kích thước chữ */
+  font-size: 4em; /* Tăng kích thước chữ "TT & QA" */
   position: relative;
-  top: 20px; /* Di chuyển chữ "TT & QA" xuống dưới một chút */
+  top: 60px; /* Điều chỉnh vị trí chữ "TT & QA" */
   text-align: center;
-  color: white; /* Đảm bảo chữ hiển thị rõ ràng */
+  color: white;
 }
 
 .STARDUST3 {
-  font-size: 1.5em;
+  font-size: 2em; /* Tăng kích thước chữ "Em đồng ý làm người yêu anh nhé" */
   position: relative;
-  top: 40px; /* Di chuyển văn bản xuống dưới */
+  top: 100px; /* Di chuyển chữ xuống dưới để cân đối với tổng thể */
   text-align: center;
-  color: white; /* Đảm bảo chữ hiển thị rõ ràng */
+  color: white;
 }
 
 /* 星空css */
@@ -132,8 +132,8 @@ body {
   width: 100%;
   height: 100%;
   background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #020409 100%) !important;
-  padding-top: 10px; /* Tạo thêm không gian ở đầu trang */
-  padding-bottom: 20px; /* Tạo thêm không gian ở cuối trang */
+  padding-top: 20px; /* Tăng khoảng cách trên để tạo không gian */
+  padding-bottom: 20px; /* Tăng khoảng cách dưới để tạo không gian */
 }
 
 .content {
@@ -149,7 +149,7 @@ body {
 
 #footerContent {
   font-family: sans-serif;
-  font-size: 110%;
+  font-size: 120%;
   color: rgba(200, 220, 255, 0.3);
   width: 100%;
   position: fixed;
@@ -189,32 +189,39 @@ img {
 /* Media queries for mobile responsiveness */
 @media only screen and (max-width: 600px) {
   .title h1 {
-    font-size: 40px; /* Giảm kích thước chữ trên điện thoại */
+    font-size: 50px; /* Tăng kích thước chữ trên điện thoại */
   }
 
   .title h3 {
-    font-size: 18px; /* Điều chỉnh kích thước chữ nhỏ hơn */
+    font-size: 20px; /* Điều chỉnh kích thước chữ nhỏ hơn */
   }
 
   .img {
-    width: 280px; /* Giảm kích thước hình ảnh */
-    height: 280px; /* Giảm chiều cao hình ảnh */
+    width: 350px; /* Tăng kích thước hình ảnh */
+    height: 350px; /* Tăng chiều cao hình ảnh */
   }
 
   .STARDUST1 {
-    font-size: 1em; /* Giảm kích thước chữ */
-    top: -50px; /* Di chuyển chữ "2024" lên trên */
+    font-size: 1.8em; /* Tăng kích thước chữ */
+    top: -120px; /* Điều chỉnh vị trí chữ "2024" */
   }
 
   .STARDUST2 {
-    font-size: 2em; /* Giảm kích thước chữ */
-    top: 30px; /* Điều chỉnh vị trí chữ */
+    font-size: 3.5em; /* Tăng kích thước chữ */
+    top: 50px; /* Điều chỉnh vị trí chữ "TT & QA" */
+  }
+
+  .STARDUST3 {
+    font-size: 2.2em; /* Tăng kích thước chữ */
+    top: 90px; /* Điều chỉnh vị trí chữ */
   }
 
   .container2, .content {
-    padding-left: 10px; /* Thêm không gian bên trái */
-    padding-right: 10px; /* Thêm không gian bên phải */
+    padding-left: 20px; /* Thêm không gian bên trái */
+    padding-right: 20px; /* Thêm không gian bên phải */
   }
 
   .title {
-    padding-top: 20px;
+    padding-top: 30px; /* Thêm khoảng cách phía trên */
+  }
+}

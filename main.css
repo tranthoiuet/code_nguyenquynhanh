@@ -10,7 +10,7 @@
 a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   font-family: "Montserrat";
   font-size: 12px;
-  text-decoration: none;        /* background: #212121; */
+  text-decoration: none;
   padding: 4px 8px;
   color: #f7f7f7;
 }
@@ -36,7 +36,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   position: relative;
   color: #fff;
   font-weight: 100;
-  font-size: 70px;
+  font-size: 90px;
   padding: 0;
   margin: 0;
   line-height: 1;
@@ -54,12 +54,14 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 .title h3 {
   z-index: 99;
   font-weight: 200;
-  font-size: 26px;
+  font-size: 30px;
   padding: 0;
   margin: 0;
   line-height: 1;
   color: #ffffff;
   letter-spacing: 2px;
+  position: relative;
+  top: -60px;
 }
 
 /* 爱心css */
@@ -72,17 +74,17 @@ canvas {
 .img {
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 55%;  /* Điều chỉnh vị trí hình ảnh để cân bằng */
   transform: translate(-50%, -50%);
-  width: 420px;
-  height: 420px;
+  width: 460px;  /* Tăng kích thước hình ảnh */
+  height: 460px;  /* Tăng kích thước hình ảnh */
 }
 
 #pinkboard {
   position: relative;
   top: 0%;
   left: 0%;
-  height: 429px;
+  height: 460px; /* Tăng chiều cao khung */
 }
 
 .STARDUST1 {
@@ -152,12 +154,6 @@ body {
   z-index: 20;
 }
 
-/* #footer {
-  position: absolute;
-  bottom: 0px;
-  height: 300px;
-  width: 100%;
-} */
 #scene {
   height: 100%;
   position: absolute;
@@ -176,10 +172,8 @@ a:hover {
   opacity: 1;
 }
 
-/* heart image: https://stackoverflow.com/a/51216413 */
 img {
 
-  /* width: 200px; */
   aspect-ratio: 1;
   object-fit: cover;
   --_m: radial-gradient(#000 69%, #0000 70%) 84.5% fill/100%;

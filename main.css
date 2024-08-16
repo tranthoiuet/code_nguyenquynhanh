@@ -74,23 +74,23 @@ canvas {
 .img {
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 55%;  /* Điều chỉnh vị trí hình ảnh để cân bằng */
   transform: translate(-50%, -50%);
-  width: 420px;
-  height: 420px;
+  width: 500px;  /* Tăng kích thước hình ảnh */
+  height: 500px;  /* Tăng kích thước hình ảnh */
 }
 
 #pinkboard {
   position: relative;
   top: 0%;
   left: 0%;
-  height: 429px;
+  height: 529px; /* Tăng chiều cao khung */
 }
 
 .STARDUST1 {
   position: relative !important;
-  top: -150px; /* Đưa chữ "2024" cao hơn nhiều so với chữ TT & QA */
-  font-size: 6em; /* Làm cho chữ "2024" to gấp đôi */
+  top: -150px; /* Đưa chữ "2024" cao hơn so với chữ TT & QA */
+  font-size: 6em; /* Làm cho chữ "2024" to hơn */
 }
 
 .STARDUST2 {

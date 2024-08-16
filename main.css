@@ -91,8 +91,10 @@ canvas {
 }
 
 .STARDUST2 {
-  position: relative !important;
-  top: -40px;
+    font-size: 3em;
+    position: relative;
+    top: 50px; /* Bắt đầu với 50px và tăng giảm theo nhu cầu */
+    text-align: center;
 }
 
 .STARDUST3 {

@@ -86,9 +86,12 @@ canvas {
 }
 
 .STARDUST1 {
-  position: relative !important;
-  top: -60px;
+    font-size: 1.5em; /* Hoặc kích thước mà bạn mong muốn */
+    position: relative;
+    top: 20px; /* Điều chỉnh giá trị này để di chuyển chữ 2024 xuống dưới */
+    text-align: center;
 }
+
 
 .STARDUST2 {
     font-size: 3em;

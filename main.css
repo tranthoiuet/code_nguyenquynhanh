@@ -36,11 +36,11 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   position: relative;
   color: #fff;
   font-weight: 100;
-  font-size: 70px;
+  font-size: 50px; /* Giảm kích thước chữ */
   padding: 0;
   margin: 0;
   line-height: 1;
-  text-shadow: 0 0 10px #ff006c, 0 0 20px #ff006c, 0 0 30px #ff006c, 0 0 40px #ff417d, 0 0 70px #ff417d, 0 0 80px #ff417d, 0 0 100px #ff417d, 0 0 150px #ff417d;
+  text-shadow: 0 0 5px #ff006c, 0 0 10px #ff006c, 0 0 20px #ff417d; /* Giảm cường độ của shadow */
 }
 
 .title h1 span {
@@ -54,12 +54,12 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 .title h3 {
   z-index: 99;
   font-weight: 200;
-  font-size: 26px;
+  font-size: 20px; /* Giảm kích thước chữ */
   padding: 0;
   margin: 0;
   line-height: 1;
   color: #ffffff;
-  letter-spacing: 2px;
+  letter-spacing: 1px; /* Giảm khoảng cách chữ */
 }
 
 /* 爱心css */
@@ -72,10 +72,10 @@ canvas {
 .img {
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 65%; /* Điều chỉnh vị trí hình ảnh */
   transform: translate(-50%, -50%);
-  width: 420px;
-  height: 420px;
+  width: 300px; /* Giảm kích thước hình ảnh */
+  height: 300px; /* Giảm chiều cao hình ảnh */
 }
 
 #pinkboard {
@@ -86,17 +86,17 @@ canvas {
 }
 
 .STARDUST1 {
-    font-size: 1.5em; /* Kích thước của chữ */
-    position: relative;
-    top: 60px; /* Tăng giá trị top để di chuyển chữ xuống thấp hơn */
-    text-align: center;
+  font-size: 1.2em; /* Giảm kích thước chữ */
+  position: relative;
+  top: 80px; /* Di chuyển chữ xuống thấp hơn */
+  text-align: center;
 }
 
 .STARDUST2 {
-    font-size: 3em;
-    position: relative;
-    top: 50px; /* Bắt đầu với 50px và tăng giảm theo nhu cầu */
-    text-align: center;
+  font-size: 2.5em; /* Giảm kích thước chữ */
+  position: relative;
+  top: 90px; /* Điều chỉnh vị trí chữ */
+  text-align: center;
 }
 
 .STARDUST3 {
@@ -127,6 +127,8 @@ body {
   width: 100%;
   height: 100%;
   background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #020409 100%) !important;
+  padding-top: 10px; /* Tạo thêm không gian ở đầu trang */
+  padding-bottom: 20px; /* Tạo thêm không gian ở cuối trang */
 }
 
 .content {
@@ -181,30 +183,35 @@ img {
 
 /* Media queries for mobile responsiveness */
 @media only screen and (max-width: 600px) {
-  .STARDUST1 {
-    font-size: 1em;
-    top: 30px;
+  .title h1 {
+    font-size: 40px; /* Giảm kích thước chữ trên điện thoại */
   }
 
-  .STARDUST2 {
-    font-size: 2em;
-    top: 40px;
-  }
-
-  .STARDUST3 {
-    font-size: 1.5em;
+  .title h3 {
+    font-size: 18px; /* Điều chỉnh kích thước chữ nhỏ hơn */
   }
 
   .img {
-    width: 100%;
-    height: auto;
+    width: 280px; /* Giảm kích thước hình ảnh */
+    height: 280px; /* Giảm chiều cao hình ảnh */
+  }
+
+  .STARDUST1 {
+    font-size: 1em; /* Giảm kích thước chữ */
+    top: 60px; /* Di chuyển chữ xuống thấp hơn */
+  }
+
+  .STARDUST2 {
+    font-size: 2em; /* Giảm kích thước chữ */
+    top: 70px; /* Điều chỉnh vị trí chữ */
   }
 
   .container2, .content {
-    padding: 10px;
+    padding-left: 10px; /* Thêm không gian bên trái */
+    padding-right: 10px; /* Thêm không gian bên phải */
   }
 
   .title {
-    padding-top: 20px;
+    padding-top: 20px; /* Thêm khoảng cách phía trên */
   }
 }
